@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { mockData } from './mockData';
+import { mockData } from './mockData.js';
 
 // --- Widgets de Visualização (Reativos) ---
 

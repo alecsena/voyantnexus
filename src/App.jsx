@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from 'react';
-import Header from './components/Header';
-import CorpusPanel from './components/CorpusPanel';
-import Dashboard from './components/Dashboard';
-import TimelinePanel from './components/TimelinePanel';
+import Header from './components/Header.jsx';
+import CorpusPanel from './components/CorpusPanel.jsx';
+import Dashboard from './components/Dashboard.jsx';
+import TimelinePanel from './components/TimelinePanel.jsx';
 
 const initialWidgets = [
     { id: 'wordCloud', title: 'Nuvem de Termos', gridClass: 'lg:col-span-2 xl:col-span-2' },

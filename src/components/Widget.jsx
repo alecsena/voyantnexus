@@ -1,5 +1,5 @@
 import React from 'react';
-import { icons } from './icons';
+import { icons } from './icons.js';
 
 const Widget = ({ id, title, children, gridClass, onDragStart, onDrop, onDragEnter, onDragOver }) => (
   <div

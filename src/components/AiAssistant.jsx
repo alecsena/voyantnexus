@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { icons } from './icons';
-import { mockData } from './mockData';
+import { icons } from './icons.js';
+import { mockData } from './mockData.js';
 
 // Componente do Assistente IA com integração Gemini
 const AiAssistant = ({ selectedCorpus }) => {
