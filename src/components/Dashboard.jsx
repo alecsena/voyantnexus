@@ -1,6 +1,6 @@
 import React from 'react';
-import Widget from './Widget';
-import { widgetComponents } from './widgetComponents';
+import Widget from './Widget.jsx';
+import { widgetComponents } from './widgetComponents.jsx';
 
 const Dashboard = ({ widgets, setWidgets, selectedCorpus, filters }) => {
     const dragItem = React.useRef(null);

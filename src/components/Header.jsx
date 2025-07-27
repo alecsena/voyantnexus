@@ -1,5 +1,5 @@
 import React from 'react';
-import { icons } from './icons';
+import { icons } from './icons.js';
 
 const Header = () => (
   <header className="bg-gray-800 text-white shadow-md p-3 flex justify-between items-center z-20">

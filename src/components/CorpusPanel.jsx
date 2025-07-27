@@ -1,7 +1,7 @@
 import React from 'react';
-import { icons } from './icons';
-import { mockData } from './mockData';
-import AiAssistant from './AiAssistant';
+import { icons } from './icons.js';
+import { mockData } from './mockData.js';
+import AiAssistant from './AiAssistant.jsx';
 
 const CorpusPanel = ({ selectedCorpus, onCorpusSelect, filters, onFilterChange }) => (
   <aside className="bg-gray-800 text-gray-300 p-4 flex flex-col space-y-6 w-full md:w-80 lg:w-96">
